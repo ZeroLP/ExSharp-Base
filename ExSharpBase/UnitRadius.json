@@ -1,0 +1,926 @@
+{
+   "Aatrox": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 35,
+      "Acquisition radius": 475
+   },
+   "Ahri": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 525
+   },
+   "Akali": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 400
+   },
+   "Alistar": {
+      "Gameplay radius": "80",
+      "Selection radius": 145,
+      "Pathing radius": 50,
+      "Acquisition radius": 600
+   },
+   "Amumu": {
+      "Gameplay radius": "55",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 600
+   },
+   "Anivia": {
+      "Gameplay radius": "65",
+      "Selection radius": 140,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Annie": {
+      "Gameplay radius": "55",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 625
+   },
+   "Aphelios": {
+      "Gameplay radius": "65",
+      "Selection radius": 110,
+      "Pathing radius": 35,
+      "Acquisition radius": 750
+   },
+   "Ashe": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Aurelion Sol": {
+      "Gameplay radius": "65",
+      "Selection radius": 165,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Azir": {
+      "Gameplay radius": "65",
+      "Selection radius": 88,
+      "Pathing radius": 35,
+      "Acquisition radius": 700
+   },
+   "Bard": {
+      "Gameplay radius": "80",
+      "Selection radius": 88,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Blitzcrank": {
+      "Gameplay radius": "80",
+      "Selection radius": 165,
+      "Pathing radius": 50,
+      "Acquisition radius": 600
+   },
+   "Brand": {
+      "Gameplay radius": "65",
+      "Selection radius": 88,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Braum": {
+      "Gameplay radius": "80",
+      "Selection radius": 100,
+      "Pathing radius": 50,
+      "Acquisition radius": 800
+   },
+   "Caitlyn": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Camille": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 550
+   },
+   "Cassiopeia": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Cho'Gath": {
+      "Gameplay radius": "80",
+      "Selection radius": 130,
+      "Pathing radius": 50,
+      "Acquisition radius": 500
+   },
+   "Corki": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Darius": {
+      "Gameplay radius": "80",
+      "Selection radius": 125,
+      "Pathing radius": 25,
+      "Acquisition radius": 400
+   },
+   "Diana": {
+      "Gameplay radius": "65",
+      "Selection radius": 75,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Dr. Mundo": {
+      "Gameplay radius": "80",
+      "Selection radius": 135,
+      "Pathing radius": 50,
+      "Acquisition radius": 600
+   },
+   "Draven": {
+      "Gameplay radius": "65",
+      "Selection radius": 111,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Ekko": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Elise": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 550
+   },
+   "Evelynn": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Ezreal": {
+      "Gameplay radius": "65",
+      "Selection radius": 115,
+      "Pathing radius": 35,
+      "Acquisition radius": 550
+   },
+   "Fiddlesticks": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 35,
+      "Acquisition radius": 520
+   },
+   "Fiora": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Fizz": {
+      "Gameplay radius": "55",
+      "Selection radius": 108,
+      "Pathing radius": 30,
+      "Acquisition radius": 400
+   },
+   "Galio": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 50,
+      "Acquisition radius": 600
+   },
+   "Gangplank": {
+      "Gameplay radius": "65",
+      "Selection radius": 85,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Garen": {
+      "Gameplay radius": "65",
+      "Selection radius": 75,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Gnar": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 600
+   },
+   "Gragas": {
+      "Gameplay radius": "80",
+      "Selection radius": 155,
+      "Pathing radius": 50,
+      "Acquisition radius": 600
+   },
+   "Graves": {
+      "Gameplay radius": "65",
+      "Selection radius": 110,
+      "Pathing radius": 10,
+      "Acquisition radius": 750
+   },
+   "Hecarim": {
+      "Gameplay radius": "80",
+      "Selection radius": 140,
+      "Pathing radius": 50,
+      "Acquisition radius": 750
+   },
+   "Heimerdinger": {
+      "Gameplay radius": "55",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 550
+   },
+   "Illaoi": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Irelia": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Ivern": {
+      "Gameplay radius": "70",
+      "Selection radius": 140,
+      "Pathing radius": 40,
+      "Acquisition radius": 750
+   },
+   "Janna": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 35,
+      "Acquisition radius": 550
+   },
+   "Jarvan IV": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Jax": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Jayce": {
+      "Gameplay radius": "65",
+      "Selection radius": 75,
+      "Pathing radius": 35,
+      "Acquisition radius": 200
+   },
+   "Jhin": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 800
+   },
+   "Jinx": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 550
+   },
+   "Kai'Sa": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 40,
+      "Acquisition radius": 800
+   },
+   "Kalista": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 900
+   },
+   "Karma": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 525
+   },
+   "Karthus": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 450
+   },
+   "Kassadin": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Katarina": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Kayle": {
+      "Gameplay radius": "65",
+      "Selection radius": 140,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Kayn": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Kennen": {
+      "Gameplay radius": "55",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 550
+   },
+   "Kha'Zix": {
+      "Gameplay radius": "65",
+      "Selection radius": 130,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Kindred": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 525
+   },
+   "Kled": {
+      "Gameplay radius": "65",
+      "Selection radius": 140,
+      "Pathing radius": 35,
+      "Acquisition radius": 750
+   },
+   "Kled & Skaarl": {
+      "Gameplay radius": "65",
+      "Selection radius": 140,
+      "Pathing radius": 35,
+      "Acquisition radius": 750
+   },
+   "Kog'Maw": {
+      "Gameplay radius": "65",
+      "Selection radius": 130,
+      "Pathing radius": 30,
+      "Acquisition radius": 900
+   },
+   "LeBlanc": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 525
+   },
+   "Lee Sin": {
+      "Gameplay radius": "65",
+      "Selection radius": 102,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Leona": {
+      "Gameplay radius": "65",
+      "Selection radius": 75,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Lissandra": {
+      "Gameplay radius": "65",
+      "Selection radius": 88,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Lucian": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 40,
+      "Acquisition radius": 800
+   },
+   "Lulu": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 625
+   },
+   "Lux": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 625
+   },
+   "Malphite": {
+      "Gameplay radius": "80",
+      "Selection radius": 125,
+      "Pathing radius": 50,
+      "Acquisition radius": 400
+   },
+   "Malzahar": {
+      "Gameplay radius": "65",
+      "Selection radius": 88,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Maokai": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 50,
+      "Acquisition radius": 600
+   },
+   "Master Yi": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Mega Gnar": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 600
+   },
+   "Miss Fortune": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 800
+   },
+   "Mordekaiser": {
+      "Gameplay radius": "80",
+      "Selection radius": 125,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Morgana": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Nami": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Nasus": {
+      "Gameplay radius": "80",
+      "Selection radius": 135,
+      "Pathing radius": 50,
+      "Acquisition radius": 350
+   },
+   "Nautilus": {
+      "Gameplay radius": "80",
+      "Selection radius": 125,
+      "Pathing radius": 50,
+      "Acquisition radius": 400
+   },
+   "Neeko": {
+      "Gameplay radius": "80",
+      "Selection radius": 90,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Nidalee": {
+      "Gameplay radius": "65",
+      "Selection radius": 110,
+      "Pathing radius": 35,
+      "Acquisition radius": 750
+   },
+   "Nocturne": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Nunu & Willump": {
+      "Gameplay radius": "65",
+      "Selection radius": 140,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Olaf": {
+      "Gameplay radius": "65",
+      "Selection radius": 111,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Orianna": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 525
+   },
+   "Ornn": {
+      "Gameplay radius": "80",
+      "Selection radius": 125,
+      "Pathing radius": 25,
+      "Acquisition radius": 600
+   },
+   "Pantheon": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Poppy": {
+      "Gameplay radius": "55",
+      "Selection radius": 95,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Pyke": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Qiyana": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 750
+   },
+   "Quinn": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 750
+   },
+   "Rakan": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 35,
+      "Acquisition radius": 475
+   },
+   "Rammus": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Rek'Sai": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 600
+   },
+   "Renekton": {
+      "Gameplay radius": "80",
+      "Selection radius": 125,
+      "Pathing radius": 50,
+      "Acquisition radius": 600
+   },
+   "Rengar": {
+      "Gameplay radius": "65",
+      "Selection radius": 70,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Riven": {
+      "Gameplay radius": "65",
+      "Selection radius": 130,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Rumble": {
+      "Gameplay radius": "80",
+      "Selection radius": 165,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Ryze": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 575
+   },
+   "Sejuani": {
+      "Gameplay radius": "80",
+      "Selection radius": 140,
+      "Pathing radius": 50,
+      "Acquisition radius": 750
+   },
+   "Senna": {
+      "Gameplay radius": "65",
+      "Selection radius": 115,
+      "Pathing radius": 35,
+      "Acquisition radius": 800
+   },
+   "Sett": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Shaco": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Shen": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Shyvana": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Singed": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 35,
+      "Acquisition radius": 300
+   },
+   "Sion": {
+      "Gameplay radius": "80",
+      "Selection radius": 125,
+      "Pathing radius": 25,
+      "Acquisition radius": 600
+   },
+   "Sivir": {
+      "Gameplay radius": "65",
+      "Selection radius": 115,
+      "Pathing radius": 35,
+      "Acquisition radius": 500
+   },
+   "Skarner": {
+      "Gameplay radius": "80",
+      "Selection radius": 130,
+      "Pathing radius": 50,
+      "Acquisition radius": 600
+   },
+   "Sona": {
+      "Gameplay radius": "65",
+      "Selection radius": 110,
+      "Pathing radius": 35,
+      "Acquisition radius": 800
+   },
+   "Soraka": {
+      "Gameplay radius": "65",
+      "Selection radius": 110,
+      "Pathing radius": 44,
+      "Acquisition radius": 600
+   },
+   "Swain": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 525
+   },
+   "Sylas": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 525
+   },
+   "Syndra": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 35,
+      "Acquisition radius": 575
+   },
+   "Tahm Kench": {
+      "Gameplay radius": "80",
+      "Selection radius": 125,
+      "Pathing radius": 50,
+      "Acquisition radius": 600
+   },
+   "Taliyah": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 550
+   },
+   "Talon": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Taric": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 35,
+      "Acquisition radius": 350
+   },
+   "Teemo": {
+      "Gameplay radius": "55",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 500
+   },
+   "Thresh": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 36,
+      "Acquisition radius": 475
+   },
+   "Tristana": {
+      "Gameplay radius": "55",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 800
+   },
+   "Trundle": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 25,
+      "Acquisition radius": 400
+   },
+   "Tryndamere": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Twisted Fate": {
+      "Gameplay radius": "65",
+      "Selection radius": 110,
+      "Pathing radius": 35,
+      "Acquisition radius": 750
+   },
+   "Twitch": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 35,
+      "Acquisition radius": 575
+   },
+   "Udyr": {
+      "Gameplay radius": "65",
+      "Selection radius": 125,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Urgot": {
+      "Gameplay radius": "80",
+      "Selection radius": 136,
+      "Pathing radius": 50,
+      "Acquisition radius": 550
+   },
+   "Varus": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Vayne": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 575
+   },
+   "Veigar": {
+      "Gameplay radius": "55",
+      "Selection radius": 93,
+      "Pathing radius": 30,
+      "Acquisition radius": 525
+   },
+   "Vel'Koz": {
+      "Gameplay radius": "65",
+      "Selection radius": 88,
+      "Pathing radius": 35,
+      "Acquisition radius": 575
+   },
+   "Vi": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Viktor": {
+      "Gameplay radius": "65",
+      "Selection radius": 160,
+      "Pathing radius": 35,
+      "Acquisition radius": 525
+   },
+   "Vladimir": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Volibear": {
+      "Gameplay radius": "80",
+      "Selection radius": 125,
+      "Pathing radius": 50,
+      "Acquisition radius": 400
+   },
+   "Warwick": {
+      "Gameplay radius": "55",
+      "Selection radius": 111,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Wukong": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Xayah": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 800
+   },
+   "Xerath": {
+      "Gameplay radius": "65",
+      "Selection radius": 88,
+      "Pathing radius": 35,
+      "Acquisition radius": 600
+   },
+   "Xin Zhao": {
+      "Gameplay radius": "65",
+      "Selection radius": 108,
+      "Pathing radius": 35,
+      "Acquisition radius": 750
+   },
+   "Yasuo": {
+      "Gameplay radius": "65",
+      "Selection radius": 75,
+      "Pathing radius": 32,
+      "Acquisition radius": 400
+   },
+   "Yorick": {
+      "Gameplay radius": "80",
+      "Selection radius": 125,
+      "Pathing radius": 50,
+      "Acquisition radius": 400
+   },
+   "Yuumi": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 550
+   },
+   "Zac": {
+      "Gameplay radius": "80",
+      "Selection radius": 90,
+      "Pathing radius": 43,
+      "Acquisition radius": 400
+   },
+   "Zed": {
+      "Gameplay radius": "65",
+      "Selection radius": 100,
+      "Pathing radius": 35,
+      "Acquisition radius": 400
+   },
+   "Ziggs": {
+      "Gameplay radius": "55",
+      "Selection radius": 100,
+      "Pathing radius": 30,
+      "Acquisition radius": 800
+   },
+   "Zilean": {
+      "Gameplay radius": "65",
+      "Selection radius": 135,
+      "Pathing radius": 35,
+      "Acquisition radius": 550
+   },
+   "Zoe": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 550
+   },
+   "Zyra": {
+      "Gameplay radius": "65",
+      "Selection radius": 120,
+      "Pathing radius": 35,
+      "Acquisition radius": 575
+   },
+   "Targeting Types": {
+      "Gameplay radius": "Auto (Passive · Self) · Direction · Ground · Unit (Collision · Radius)",
+      "Selection radius": null,
+      "Pathing radius": null,
+      "Acquisition radius": null
+   },
+   "Unit types": {
+      "Gameplay radius": "Champion · Minion · Monster · Pets · Structures (Turret · Inhibitor · Nexus) · Terrain",
+      "Selection radius": null,
+      "Pathing radius": null,
+      "Acquisition radius": null
+   },
+   "Effect types": {
+      "Gameplay radius": "Ability effects · Attack effects (On-hit) · Area of effect · Damage over time · Heal · Multi-hit · Redirected damage · Shield · Single-targeted",
+      "Selection radius": null,
+      "Pathing radius": null,
+      "Acquisition radius": null
+   },
+   "Ability types": {
+      "Gameplay radius": "Aura · Blink · Buff · Combat status · Crowd control · Damage (Ability · Basic · Magic · Physical · True · Nexus Obelisk · Execution) · Dash · Debuff · Invulnerability · Pet · Sight · Spell shield · Untargetability · Ward",
+      "Selection radius": null,
+      "Pathing radius": null,
+      "Acquisition radius": null
+   }
+}
