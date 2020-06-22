@@ -15,7 +15,10 @@ namespace ExSharpBase.Game
     {
         public static int GetLocalPlayer { get; } = Memory.Read<int>(OffsetManager.Instances.LocalPlayer);
 
-        //public static float GetGameTime { get; } = Game.API.GameStats.GetGameTime();
+        public static float GetGameTime()
+        {
+            return API.GameStats.GetGameTime();
+        }
 
         public static void IssueOrder(GameObjectOrder Order, Point Vector2D = new Point())
         {

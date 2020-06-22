@@ -15,6 +15,12 @@ namespace ExSharpBase.Game.Spells
         {
             return GetLevel() >= 1 && API.GameStats.GetGameTime() >= GetCooldownExpire();
         }
+
+        public string GetSpellName()
+        {
+            return Memory.ReadString(GetSpellData() + 0x58, Encoding.ASCII);
+        }
+
         public int GetLevel()
         {
             return Memory.Read<int>(CurrentSpell + 0x20);
@@ -48,6 +54,16 @@ namespace ExSharpBase.Game.Spells
                             cooldownRemaining = spell->GetFinalCDExpires() - LTimerModule::Get().GetGameTime();
                     }
              */
+        }
+
+        private int GetSpellInfo()
+        {
+            return Memory.Read<int>(CurrentSpell + 0x134);
+        }
+
+        private int GetSpellData()
+        {
+            return Memory.Read<int>(GetSpellInfo() + 0x44);
         }
     }
 }

@@ -22,20 +22,16 @@ namespace ExSharpBase
 
                 if (EnemyPosition != Point.Empty)
                 {
-                    if (SpellBook.GetSpellClassByID(SpellBook.SpellSlotID.Q).IsSpellReady())
+                    SpellBook.CastSpell(SpellBook.SpellSlot.Q, EnemyPosition);
+
+                    /*SpellBook.SpellSlot[] SpellArray = new SpellBook.SpellSlot[]
                     {
-                        SpellBook.CastSpell(SpellBook.SpellSlot.Q, EnemyPosition);
+                        SpellBook.SpellSlot.Q,
+                        SpellBook.SpellSlot.W,
+                        SpellBook.SpellSlot.E
+                    };
 
-                        /*SpellBook.SpellSlot[] SpellArray = new SpellBook.SpellSlot[]
-                        {
-                            SpellBook.SpellSlot.Q,
-                            SpellBook.SpellSlot.W,
-                            SpellBook.SpellSlot.E
-                        };
-
-                        SpellBook.CastMultiSpells(SpellArray, EnemyPosition);*/
-                    }
-                     
+                    SpellBook.CastMultiSpells(SpellArray, EnemyPosition);*/
                 }
                 else
                 {

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ExSharpBase.Modules;
+using Newtonsoft.Json.Linq;
 
 namespace ExSharpBase
 {
@@ -22,6 +23,8 @@ namespace ExSharpBase
                 await Task.Run(() => Events.EventsManager.SubscribeToEvents());
 
                 await Task.Run(() => UnitRadiusService.ParseUnitRadiusData());
+
+                await Task.Run(() => SpellDBService.ParseSpellDBData());
 
                 await Task.Run(() => LogService.Log("Initialising Overlay Rendering..."));
 

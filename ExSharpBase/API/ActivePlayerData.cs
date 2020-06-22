@@ -222,7 +222,7 @@ namespace ExSharpBase.API
                return Service.GetActivePlayerData()["championStats"]["resourceRegenRate"].ToObject<float>();
            }
 
-           public string GetResourceType()
+           public static string GetResourceType()
            {
                return Service.GetActivePlayerData()["championStats"]["resourceType"].ToObject<string>();
            }

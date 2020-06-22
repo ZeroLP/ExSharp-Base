@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 using System.Drawing;
 using ExSharpBase.Modules;
 using ExSharpBase.Devices;
+using Newtonsoft.Json.Linq;
 
 namespace ExSharpBase.Game.Spells
 {
     class SpellBook
     {
         public static int GetSpellBookInstance { get; } = Engine.GetLocalPlayer + OffsetManager.Instances.SpellBook;
+
+        public static JObject SpellDB;
 
         public static int SpellArray
         {
@@ -28,6 +31,13 @@ namespace ExSharpBase.Game.Spells
             return SClass;
         }
 
+        public static int GetSpellRadius(SpellSlot Slot)
+        {
+            string SpellSlotName = Enum.GetName(typeof(SpellSlot), Slot);
+
+            return SpellDB[SpellSlotName].ToObject<JObject>()["Range"][0].ToObject<int>();
+        }
+
         public static int GetActiveSpell()
         {
             return Memory.Read<int>(GetSpellBookInstance + 0x24);
@@ -35,12 +45,12 @@ namespace ExSharpBase.Game.Spells
 
         public static void CastSpell(SpellSlot Slot)
         {
-            if (Utils.IsGameOnDisplay()) Keyboard.SendKey((short)Slot);
+            if (Utils.IsGameOnDisplay() && IsSpellReady(Slot)) Keyboard.SendKey((short)Slot);
         }
 
         public static void CastSpell(SpellSlot Slot, int X, int Y)
         {
-            if (Utils.IsGameOnDisplay())
+            if (Utils.IsGameOnDisplay() && IsSpellReady(Slot))
             {
                 Mouse.MouseMove(X, Y);
                 Keyboard.SendKey((short)Slot);
@@ -49,9 +59,9 @@ namespace ExSharpBase.Game.Spells
 
         public static void CastSpell(SpellSlot Slot, Point SpellLocation)
         {
-            if (Utils.IsGameOnDisplay())
+            if (Utils.IsGameOnDisplay() && IsSpellReady(Slot))
             {
-                Mouse.MouseMove((int)SpellLocation.X, (int)SpellLocation.Y);
+                Mouse.MouseMove(SpellLocation.X, SpellLocation.Y);
                 Keyboard.SendKey((short)Slot);
             }
         }
@@ -60,7 +70,7 @@ namespace ExSharpBase.Game.Spells
         {
             foreach (SpellSlot Spell in SlotArray)
             {
-                CastSpell(Spell);
+                if(Utils.IsGameOnDisplay() && IsSpellReady(Spell)) CastSpell(Spell);
             }
         }
 
@@ -68,7 +78,7 @@ namespace ExSharpBase.Game.Spells
         {
             foreach (SpellSlot Spell in SlotArray)
             {
-                CastSpell(Spell, X, Y);
+                if (Utils.IsGameOnDisplay() && IsSpellReady(Spell)) CastSpell(Spell, X, Y);
             }
         }
 
@@ -76,18 +86,18 @@ namespace ExSharpBase.Game.Spells
         {
             foreach (SpellSlot Spell in SlotArray)
             {
-                CastSpell(Spell, SpellLocation);
+                if (Utils.IsGameOnDisplay() && IsSpellReady(Spell)) CastSpell(Spell, SpellLocation);
             }
         }
 
         public static void CastSummonerSpell(SummonerSpellSlot Slot)
         {
-            if (Utils.IsGameOnDisplay()) Keyboard.SendKey((short)Slot);
+            if (Utils.IsGameOnDisplay() && IsSummonerSpellReady(Slot)) Keyboard.SendKey((short)Slot);
         }
 
         public static void CastSummonerSpell(SummonerSpellSlot Slot, int X, int Y)
         {
-            if (Utils.IsGameOnDisplay())
+            if (Utils.IsGameOnDisplay() && IsSummonerSpellReady(Slot))
             {
                 Mouse.MouseMove(X, Y);
                 Keyboard.SendKey((short)Slot);
@@ -96,12 +106,57 @@ namespace ExSharpBase.Game.Spells
 
         public static void CastSummonerSpell(SummonerSpellSlot Slot, Point SpellLocation)
         {
-            if (Utils.IsGameOnDisplay())
+            if (Utils.IsGameOnDisplay() && IsSummonerSpellReady(Slot))
             {
-                Mouse.MouseMove((int)SpellLocation.X, (int)SpellLocation.Y);
+                Mouse.MouseMove(SpellLocation.X, SpellLocation.Y);
                 Keyboard.SendKey((short)Slot);
             }
         }
+
+        public static void CastItem(ItemSlot Slot)
+        {
+            if (Utils.IsGameOnDisplay()) Keyboard.SendKey((short)Slot);
+        }
+
+        public static void CastItem(ItemSlot Slot, int X, int Y)
+        {
+            if (Utils.IsGameOnDisplay())
+            {
+                Mouse.MouseMove(X, Y);
+                Keyboard.SendKey((short)Slot);
+            }
+        }
+
+        public static void CastItem(ItemSlot Slot, Point SpellLocation)
+        {
+            if (Utils.IsGameOnDisplay())
+            {
+                Mouse.MouseMove(SpellLocation.X, SpellLocation.Y);
+                Keyboard.SendKey((short)Slot);
+            }
+        }
+
+        private static bool IsSpellReady(SpellSlot Slot)
+        {
+            SpellSlotID FindSlotID = (SpellSlotID)Enum.Parse(typeof(SpellSlotID), Enum.GetName(typeof(SpellSlot), Slot));
+
+            return GetSpellClassByID(FindSlotID).IsSpellReady();
+        }
+
+        private static bool IsSummonerSpellReady(SummonerSpellSlot Slot)
+        {
+            SpellSlotID FindSlotID = (SpellSlotID)Enum.Parse(typeof(SpellSlotID), Enum.GetName(typeof(SummonerSpellSlot), Slot));
+
+            return GetSpellClassByID(FindSlotID).IsSpellReady();
+        }
+
+        /* Broken ATM
+        private static bool IsItemReady(ItemSlot Slot)
+        {
+            SpellSlotID FindSlotID = (SpellSlotID)Enum.Parse(typeof(SpellSlotID), Enum.GetName(typeof(ItemSlot), Slot));
+
+            return GetSpellClassByID(FindSlotID).IsSpellReady();
+        }*/
 
         public enum SpellSlot
         {
@@ -109,6 +164,24 @@ namespace ExSharpBase.Game.Spells
             W = Keyboard.KeyBoardScanCodes.KEY_W,
             E = Keyboard.KeyBoardScanCodes.KEY_E,
             R = Keyboard.KeyBoardScanCodes.KEY_R
+        }
+
+        public enum SummonerSpellSlot
+        {
+            Summoner1 = Keyboard.KeyBoardScanCodes.KEY_D,
+            Summoner2 = Keyboard.KeyBoardScanCodes.KEY_F,
+            Recall = Keyboard.VirtualKeyCodes.KEY_B
+        }
+
+        public enum ItemSlot
+        {
+            Item1 = Keyboard.KeyBoardScanCodes.KEY_1,
+            Item2 = Keyboard.KeyBoardScanCodes.KEY_2,
+            Item3 = Keyboard.KeyBoardScanCodes.KEY_3,
+            Item4 = Keyboard.KeyBoardScanCodes.KEY_5,
+            Item5 = Keyboard.KeyBoardScanCodes.KEY_6,
+            Item6 = Keyboard.KeyBoardScanCodes.KEY_7,
+            Trinket = Keyboard.KeyBoardScanCodes.KEY_4,
         }
 
         public enum SpellSlotID
@@ -127,13 +200,6 @@ namespace ExSharpBase.Game.Spells
             Item6 = 11,
             Trinket = 12,
             Recall = 13
-        }
-
-        public enum SummonerSpellSlot
-        {
-            Summoner1 = Keyboard.KeyBoardScanCodes.KEY_D,
-            Summoner2 = Keyboard.KeyBoardScanCodes.KEY_F,
-            Recall = Keyboard.VirtualKeyCodes.KEY_B
         }
     }
 }

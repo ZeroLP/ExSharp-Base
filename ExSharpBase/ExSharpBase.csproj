@@ -90,6 +90,7 @@
     <Compile Include="Modules\NativeImport.cs" />
     <Compile Include="Modules\PixelSearch.cs" />
     <Compile Include="Modules\ScreenEx.cs" />
+    <Compile Include="Modules\SpellDBService.cs" />
     <Compile Include="Modules\Timer.cs" />
     <Compile Include="Modules\UnitRadiusService.cs" />
     <Compile Include="Modules\Utils.cs" />
@@ -106,6 +107,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="SpellDB.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="UnitRadius.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
