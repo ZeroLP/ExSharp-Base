@@ -23,13 +23,13 @@ UC Post: [https://www.unknowncheats.me/forum/league-of-legends/403011-external-r
 # Error Reporting
 Please raise issues in the issue section of the repository in the below format:
 
-> Exception thrown: 
-> Exception message: 
-> Error occurring line/file: 
-> Your action before occurrence of the error: 
-> Any resolution you have taken before raising this issue: 
-> League of Legends version: 
-> League of Legends server region: 
+- Exception thrown: 
+- Exception message: 
+- Error occurring line/file: 
+- Your action before occurrence of the error: 
+- Any resolution you have taken before raising this issue: 
+- League of Legends version: 
+- League of Legends server region: 
 
 
 # Road Map
