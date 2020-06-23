@@ -7,6 +7,7 @@ It supports wide variety of features and more to come also from the planned road
 UC Post: [https://www.unknowncheats.me/forum/league-of-legends/403011-external-rpm-pixelsearch-base.html](https://www.unknowncheats.me/forum/league-of-legends/403011-external-rpm-pixelsearch-base.html)
 
 Discord Server:
+
 **[![enter image description here](https://discordapp.com/api/guilds/725126802493669376/widget.png?style=banner2)](https://discord.gg/wN8bX89)**
 
 # Repo Information
