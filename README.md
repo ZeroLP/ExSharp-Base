@@ -1,5 +1,9 @@
 # ExSharp Base
 
+<p align="center">
+  <img src="https://i.imgur.com/ryUT9k7.png" alt="ExSharp-Base Discord" style="max-width:295px"/>
+</p>
+
 ExSharp Base is an External RPM(ReadProcessMemory) & PixelSearch League of Legends Base for the people who are getting into League of Legends external cheating scene.
 
 It supports wide variety of features and more to come also from the planned roadmaps. You are also welcomed to submit Pull Request if you want other features to be implemented to the base.
