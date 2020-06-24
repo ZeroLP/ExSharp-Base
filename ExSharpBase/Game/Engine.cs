@@ -20,6 +20,11 @@ namespace ExSharpBase.Game
             return API.GameStats.GetGameTime();
         }
 
+        public static int GetObjectUnderMouse() //Use at risk [Possible Detection?]
+        {
+            return Memory.Read<int>(OffsetManager.Instances.UnderMouseObject);
+        }
+
         public static void IssueOrder(GameObjectOrder Order, Point Vector2D = new Point())
         {
             if (Utils.IsGameOnDisplay())
