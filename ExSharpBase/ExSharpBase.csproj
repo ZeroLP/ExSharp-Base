@@ -94,6 +94,7 @@
     <Compile Include="Modules\Timer.cs" />
     <Compile Include="Modules\UnitRadiusService.cs" />
     <Compile Include="Modules\Utils.cs" />
+    <Compile Include="OrbService\Orbwalker.cs" />
     <Compile Include="Overlay\Base.cs">
       <SubType>Form</SubType>
     </Compile>

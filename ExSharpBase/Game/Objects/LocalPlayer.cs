@@ -44,6 +44,33 @@ namespace ExSharpBase.Game.Objects
             }
         }
 
+        private static List<string> RangeSlotList = new List<string>() { "Q", "W", "E", "R" };
+        private static List<float> UsedRangeSlotsList = new List<float>();
+        public static void DrawAllSpellRange(Color RGB)
+        {
+            foreach (string RangeSlot in RangeSlotList)
+            {
+                float SpellRange = Spells.SpellBook.SpellDB[RangeSlot].ToObject<JObject>()["Range"][0].ToObject<float>();
+
+                if(UsedRangeSlotsList.Count != 0)
+                {
+                    if (!UsedRangeSlotsList.Contains(SpellRange))
+                    {
+                        UsedRangeSlotsList.Add(SpellRange);
+                    }
+                }
+                else
+                {
+                    UsedRangeSlotsList.Add(SpellRange);
+                }
+            }
+
+            foreach(float Range in UsedRangeSlotsList)
+            {
+                Overlay.Drawing.DrawFactory.DrawCircleRange(GetPosition(), Range, RGB, 2.5f);
+            }
+        }
+
         public static bool IsVisible()
         {
             return Memory.Read<bool>(Engine.GetLocalPlayer + OffsetManager.Object.Visibility);

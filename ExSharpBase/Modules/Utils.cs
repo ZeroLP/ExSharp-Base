@@ -24,6 +24,7 @@ namespace ExSharpBase.Modules
 
         public static bool IsGameOnDisplay()
         {
+            //TODO: HWND Locking up on League's HWND
             return NativeImport.GetActiveWindowTitle() == "League of Legends (TM) Client";
         }
 

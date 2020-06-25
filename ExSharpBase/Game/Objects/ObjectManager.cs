@@ -58,8 +58,8 @@ namespace ExSharpBase.Game.Objects
                 Tuple<SharpDX.Vector2, double> tuple = (from t in list orderby t.Item2 select t).ElementAt(0);
                 Point point2 = new Point((int)tuple.Item1.X, (int)tuple.Item1.Y);
 
-                result.X = point2.X + 43;
-                result.Y = point2.Y + 85;
+                result.X = point2.X + 50;
+                result.Y = point2.Y + 100;
             }
 
             return result;
