@@ -25,7 +25,7 @@ namespace ExSharpBase.Game
 
         public class Object
         {
-            public static int ChampionName = 0x3594;
+            public static int ChampionName = 0x358C;
             public static int Pos = 0x1D8;
             public static int Name = 0x6C;
             public static int Visibility = 0x39C;
