@@ -6,10 +6,6 @@ It supports wide variety of features and more to come also from the planned road
 
 UC Post: [https://www.unknowncheats.me/forum/league-of-legends/403011-external-rpm-pixelsearch-base.html](https://www.unknowncheats.me/forum/league-of-legends/403011-external-rpm-pixelsearch-base.html)
 
-Discord Server:
-
-**[![enter image description here](https://discordapp.com/api/guilds/725126802493669376/widget.png?style=banner2)](https://discord.gg/wN8bX89)**
-
 # Repo Information
 **Master** branch will contain latest updates on the base which is not pushed to the versioned branches.
 **LeagueVersion(Ex. 10.12)** branch will only contain the snapshot of the base update pushed at the time of the respective League patch. If you want any latest features, please refer to the **Master** branch.
