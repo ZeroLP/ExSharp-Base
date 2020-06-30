@@ -44,7 +44,7 @@ Please submit Pull Request if you want a feature to be implemented.
 
 # Contact
 I would be preferred to be contacted on Discord.
-Tag: **admiralzero#6142**
+Tag: **admiralzero#3351**
 
 # Preview
 
