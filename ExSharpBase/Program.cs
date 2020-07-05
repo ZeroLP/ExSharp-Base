@@ -11,6 +11,7 @@ namespace ExSharpBase
     class Program
     {
         public static Overlay.Base DrawBase = new Overlay.Base();
+        public static Menu.BasePlate MenuBasePlate = new Menu.BasePlate();
 
         static void Main(string[] args)
         {

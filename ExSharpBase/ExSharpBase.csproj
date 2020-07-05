@@ -85,6 +85,12 @@
     <Compile Include="Game\Spells\SpellBook.cs" />
     <Compile Include="Game\Spells\SpellClass.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="Menu\BasePlate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\BasePlate.Designer.cs">
+      <DependentUpon>BasePlate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modules\LogService.cs" />
     <Compile Include="Modules\Memory.cs" />
     <Compile Include="Modules\NativeImport.cs" />
@@ -117,6 +123,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <EmbeddedResource Include="Menu\BasePlate.resx">
+      <DependentUpon>BasePlate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Overlay\Base.resx">
       <DependentUpon>Base.cs</DependentUpon>
     </EmbeddedResource>

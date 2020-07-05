@@ -11,15 +11,39 @@ namespace ExSharpBase.Events
 {
     class Drawing
     {
+        public static Dictionary<string, bool> DrawingProperties = new Dictionary<string, bool>()
+        {
+            { "DrawRange", true }
+        };
+
+        public static bool IsMenuBeingDrawn = false;
+
         public static void OnDeviceDraw()
         {
-            //Maybe add ImGui.NET?
-
             if (Utils.IsGameOnDisplay())
             {
-                LocalPlayer.DrawAttackRange(Color.Cyan, 2.5f);
+                //When ~ key is pressed...
+                DrawMenu();
 
-                LocalPlayer.DrawAllSpellRange(Color.OrangeRed);
+                if (DrawingProperties["DrawRange"] == true)
+                {
+                    LocalPlayer.DrawAttackRange(Color.Cyan, 2.5f);
+
+                    LocalPlayer.DrawAllSpellRange(Color.OrangeRed);
+                }
+            }
+        }
+
+        private static void DrawMenu()
+        {
+            if (Utils.IsKeyPressed(System.Windows.Forms.Keys.Oemtilde))
+            {
+                Program.MenuBasePlate.Show();
+                IsMenuBeingDrawn = true;
+            }
+            else
+            {
+                Program.MenuBasePlate.Hide();
             }
         }
     }

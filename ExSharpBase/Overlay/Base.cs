@@ -47,7 +47,7 @@ namespace ExSharpBase.Overlay
         {
             RenderLoop.Run(this, () =>
             {
-                NativeImport.BringWindowToTop(this.Handle);
+                if(!ExSharpBase.Events.Drawing.IsMenuBeingDrawn) NativeImport.BringWindowToTop(this.Handle);
 
                 DrawFactory.device.Clear(ClearFlags.Target, new SharpDX.Mathematics.Interop.RawColorBGRA(0, 0, 0, 0), 1.0f, 0);
                 DrawFactory.device.SetRenderState(RenderState.ZEnable, false);

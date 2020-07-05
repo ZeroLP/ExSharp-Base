@@ -32,5 +32,10 @@ namespace ExSharpBase.Modules
         {
             return 0 != (NativeImport.GetAsyncKeyState((int)keys) & 0x8000);
         }
+
+        public static bool IsKeyPressed(uint keys)
+        {
+            return 0 != (NativeImport.GetAsyncKeyState((int)keys) & 0x8000);
+        }
     }
 }
