@@ -87,7 +87,7 @@ namespace ExSharpBase.Game.Objects
 
         public static string GetChampionName()
         {
-            return Memory.ReadString(Engine.GetLocalPlayer + OffsetManager.Object.ChampionName, Encoding.ASCII);
+            return API.AllPlayerData.AllPlayers.Where(x => x.SummonerName == GetSummonerName()).First().ChampionName;
         }
 
         public static float GetAttackRange()

@@ -68,6 +68,8 @@
     <Compile Include="API\ActivePlayerData.cs" />
     <Compile Include="API\AllPlayerData.cs" />
     <Compile Include="API\GameStats.cs" />
+    <Compile Include="API\Models\Item.cs" />
+    <Compile Include="API\Models\PlayerData.cs" />
     <Compile Include="API\Service.cs" />
     <Compile Include="Devices\Keyboard.cs" />
     <Compile Include="Devices\Mouse.cs" />
