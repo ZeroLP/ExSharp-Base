@@ -16,7 +16,9 @@ namespace ExSharpBase.Modules
             try
             {
                 string SpellDBDataString = File.ReadAllText(Directory.GetCurrentDirectory() + @"\SpellDB.json");
-                Game.Spells.SpellBook.SpellDB = JObject.Parse(SpellDBDataString)[Game.Objects.LocalPlayer.GetChampionName()].ToObject<JObject>();
+                string championName = Game.Objects.LocalPlayer.GetChampionName().Replace(" ", string.Empty);
+                
+                Game.Spells.SpellBook.SpellDB = JObject.Parse(SpellDBDataString)[championName].ToObject<JObject>();
 
                 LogService.Log("Successfully Parsed SpellDB.");
             }
