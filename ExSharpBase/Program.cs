@@ -17,9 +17,9 @@ namespace ExSharpBase
         {
             Task.Run(async () =>
             {
-                await Task.Run(() => API.Service.IsLiveGameRunning());
+                /*await Task.Run(() => API.Service.IsLiveGameRunning());
 
-                await Task.Run(() => LogService.Log("Found Live Instance of The Game."));
+                await Task.Run(() => LogService.Log("Found Live Instance of The Game."));*/
 
                 await Task.Run(() => Events.EventsManager.SubscribeToEvents());
 
