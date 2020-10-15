@@ -13,7 +13,7 @@ namespace ExSharpBase.Game
         private static int ViewMatrix = OffsetManager.Instances.ViewMatrix;
         private static int ProjectionMatrix = ViewMatrix + 0x40;
 
-        private const int Width = 0x0014;
+        private const int Width = 0x10;
         private const int Height = Width + 0x4;
 
         public static int Instance { get; } = Memory.Read<int>(OffsetManager.Instances.Renderer);
